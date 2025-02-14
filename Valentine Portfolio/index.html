@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="area">
+        <div class="heading">
+            <div class="Top">
+                <p>Why You Should Fall For Me</p>
+            </div>
+
+        </div>
+        <div class="second">
+            <p>Are you looking for someone who can make you laugh, appreciate the little moments, and bring a spark to your everyday life? Well, look no further!</p>
+        </div>
+        <div class="mainContent">
+            <div class="profilePic">
+                <img src="Profile.jpg" alt="">
+            </div>
+            <div class="info">
+                <div class="name">
+                    <p>AAKASH SEMWAL</p>
+                </div>
+                <div class="genInfo">
+                    <h4>Age: 20</h4>
+                    <h4>Gender: Male (obviously) </h4>
+                    <h4>Height: 5'11</h4>
+                    <h4>Pahadi</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="specialLine1">
+            <p>Meri ek chooti se baat maan lo.... Zindagi bhoat lambi hai mera hath tham lo</p>
+        </div>
+
+        <div class="content1">
+            <div>
+                <h3>Cricketer by passion, heart-stealer by choice. Ready to bowl you over and make every moment a wicket celebration.</h3>
+                <h3>Chai lover.</h3>
+                <h3>With the way I love listening, I might just hang onto every word you say... especially the sweet ones.😉</h3>
+                <h3>Pluviophile</h3>
+                <h3>Crazy about sweets</h3>
+            </div>
+            <img src="Image2.jpeg" alt="">
+        </div>
+
+        <div class="content2">
+            <img src="Image4.jpg" alt="">
+            <div>
+                <h3>Can cook (atleast what you like)</h3>
+                <h3>Dogs or Cats?</h3>
+                <h3>Whole heartedly into Arijit Singh</h3>
+                <h3>I'll make you smile, even on your worst days. A little charm, a little humor—just for you.</h3>
+                <h3>Got strong shoulders that can carry you and your worries, your laughter, and your dreams—all at once.</h3>
+            </div>
+        </div>
+
+        <div class="specialLine2">
+            <p>If you're still reading, you're probably my type. Let's find out</p>
+        </div>
+        <div class="more">
+            <h3>More of me</h3>
+        </div>
+
+        <div class="imageSection">
+            <div class="imageSlider">
+                <div class="slideImages">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="image first">
+                        <img src="Image1.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="Image3.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="Image6.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="Image5.jpeg" alt="">
+                    </div>
+
+                    <div class="auto-nav">
+                        <div class="auto1"></div>
+                        <div class="auto2"></div>
+                        <div class="auto3"></div>
+                        <div class="auto4"></div>
+                    </div>
+
+                    <div class="manual-nav">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <h4>Not on Insta | Not on Facebook | But definitely in your heart</h4>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
 </body>
+
 </html>
