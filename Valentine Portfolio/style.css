@@ -116,6 +116,7 @@ body{
 .final{
     display: flex;
     justify-content: center;
+    margin: 20px ;
 }
 
 .mainContent{
@@ -156,7 +157,7 @@ body{
 }
 
 .imageSection{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center ;
     align-items:center;
